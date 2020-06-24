@@ -1,0 +1,100 @@
+*{
+ 	/*Eliminando los padding y margenes por defecto*/
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+body{
+	background: url(../imagenes/fondo.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.contenedor{
+ 	margin: auto;
+ 	width: 90%;
+ 	max-width: 1000px;
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+ 
+ }
+  header{
+ 	width: 100%;
+ 	padding: 50px 0;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+header .border{
+	width: 100%;
+}
+h1,h5{
+	color: white;
+}
+.lazo{
+	background: black;
+	border: 2px solid;
+}
+
+.main{
+ 	background: rgba(175,21,179,0.3);
+ 	padding: 20px;
+ 	width: 100%;
+ }
+ .main .formulario{
+ 	text-align: center;
+ }
+ .main .formulario .form-group{
+ 	padding: 10px;
+ }
+ .main .formulario .form-group .icono{
+ 	margin-right: 20px;
+ 	color: white;
+ 	border: 10px solid black;
+ 	border-radius: 5px;
+ 	background: black;
+ }
+  .main .formulario .form-group .submit-btn{
+ 	margin-right: 20px;
+ 	color: white;
+ 	border: 10px solid black;
+ 	border-radius: 5px;
+ 	background: black;
+ }
+ .main .formulario .form-group .caja{
+ 	border-radius: 5px;
+ 	padding: 8px;
+ }
+aside{
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+aside .pregunta{
+	text-align: center;
+}
+aside .abrir{
+	text-align: center;
+}
+aside .abrir a{
+	text-decoration: none;
+}
+.main .formulario .form-group .submit-btn:hover{
+	cursor: pointer;
+}
+aside .abrir a:hover{
+	color: white;
+	text-decoration: underline;
+}
+.error{
+	
+	color: white;
+}
+.error ul{
+	list-style: none;
+}

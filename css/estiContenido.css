@@ -1,0 +1,38 @@
+*{
+ 	/*Eliminando los padding y margenes por defecto*/
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+body{
+	background: url(../imagenes/fondo.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.contenedor{
+ 	margin: auto;
+ 	width: 90%;
+ 	max-width: 1000px;
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+ 
+ }
+ h1{
+ 	text-align: center;
+ 	color:  #ffff;
+}
+a{
+	text-decoration: none;
+	color: #ffff;
+}
+.contenedor .parrafo{
+	background: rgba(175,21,179,0.3);
+ 	padding: 20px;
+ 	width: 100%;
+ 	color: #ffff;
+}
+a:hover{
+	text-decoration: underline;
+}
